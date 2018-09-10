@@ -5,7 +5,7 @@
 echo "*** uBlock0.chromium: Creating web store package"
 echo "*** uBlock0.chromium: Copying files"
 
-DES=dist/build/uBlock0.chromium
+DES=dist/build/adblockMaximum.chromium
 rm -rf $DES
 mkdir -p $DES
 
@@ -47,9 +47,10 @@ python tools/make-chromium-meta.py $DES/
 
 if [ "$1" = all ]; then
     echo "*** uBlock0.chromium: Creating package..."
-    pushd $(dirname $DES/) > /dev/null
-    zip uBlock0.chromium.zip -qr $(basename $DES/)/*
-    popd > /dev/null
+    rm dist/build/adblockMaximum.crx
+    python tools/crx-packer.py --dir $DES\
+                               --key dist/chromium/adblockMaximum.chromium.pem\
+                               --crx dist/build/adblockMaximum.crx
 fi
 
 echo "*** uBlock0.chromium: Package done."
