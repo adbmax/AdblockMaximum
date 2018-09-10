@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="css/common.css" type="text/css">
 <link rel="stylesheet" href="css/popup.css" type="text/css">
 <link rel="stylesheet" href="css/vapi-popup.css" type="text/css"><!-- Optional platform-specific CSS rules -->
+<link rel="stylesheet" href="css/popup2.css" type="text/css">
 <title>Adblock Maximum</title>
 </head>
 
@@ -14,34 +15,72 @@
 <span id="appinfo"><span id="appname">&nbsp;</span> <span id="version">&nbsp;</span></span>
 <div id="panes">
     <div class="tooltipContainer">
-        <p id="switch" role="button" aria-label data-tip-position="under" tabindex="0"><span class="fa">&#xf011;</span></p>
+        <p id="_switch" hidden role="button" aria-label data-tip-position="under" tabindex="0"><span class="fa">&#xf011;</span></p>
         <p id="basicTools">
-            <span id="gotoZap" class="fa tool" data-i18n-tip="popupTipZapper" data-tip-position="under">&#xf0e7;</span>
-            <span id="gotoPick" class="fa tool" data-i18n-tip="popupTipPicker" data-tip-position="under">&#xf1fb;</span>
+            <span id="_gotoZap" class="fa tool" data-i18n-tip="popupTipZapper" data-tip-position="under">&#xf0e7;</span>
+            <span id="_gotoPick" class="fa tool" data-i18n-tip="popupTipPicker" data-tip-position="under">&#xf1fb;</span>
             <a href="logger-ui.html#tab_active" class="fa tool enabled" aria-label="data-tip" data-i18n-tip="popupTipLog" data-tip-position="under" target="uBOLogger" tabindex="0">&#xf022;</a>
             <a href="dashboard.html" class="fa tool enabled" aria-label="data-tip" data-i18n-tip="popupTipDashboard" data-tip-position="under" target="uBODashboard" tabindex="0">&#xf1de;</a>
         </p>
-        <h2 id="dfToggler" data-i18n="popupBlockedRequestPrompt">&nbsp;</h2>
-        <p class="statName">
-            <span data-i18n="popupBlockedOnThisPagePrompt">&nbsp;</span>
-        </p>
-        <p class="statValue" id="page-blocked">?</p>
-        <div id="refresh" class="fa">&#xf021;</div>
-        <p class="statName">
-            <span data-i18n="popupBlockedSinceInstallPrompt">&nbsp;</span>
-        </p>
-        <p class="statValue" id="total-blocked">?</p>
-        <h2 data-i18n="popupHitDomainCountPrompt">&nbsp;</h2>
-        <p class="statValue" id="popupHitDomainCount">&nbsp;</p>
-        <div id="extraTools">
-            <span id="no-popups" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf0c5;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
-            <span id="no-large-media" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf008;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
-            <span id="no-cosmetic-filtering" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf070;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
-            <span id="no-remote-fonts" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf031;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
+        <h2 id="dfToggler" class="toggleFirewall" data-i18n="popupBlockedRequestPrompt"></h2>
+        <div class="stats">
+          <span class="statName">
+              <span data-i18n="popupBlockedOnThisPagePrompt"></span>
+          </span>
+          <span class="statValue" id="page-blocked">?</p>
         </div>
+        <div class="stats">
+          <p class="statName">
+              <span data-i18n="popupBlockedSinceInstallPrompt"></span>
+          </p>
+          <p class="statValue" id="total-blocked">?</p>
+        </div>
+        <div id="domainToggler" class="toggleFirewall">
+          <span data-i18n="popupHitDomainCountPrompt"></span>
+          <span class="statValue" id="popupHitDomainCount">&nbsp;</span>
+        </div>
+        <div id="extraTools">
+            <span id="_no-popups" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf0c5;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
+            <span id="_no-large-media" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf008;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
+            <span id="_no-cosmetic-filtering" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf070;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
+            <span id="_no-remote-fonts" class="hnSwitch fa" role="button" aria-label tabindex="0">&#xf031;<span class="badge"></span><span><svg viewBox="0 0 20 20"><path d="M1,1 19,19M1,19 19,1" /></svg></span></span>
+        </div>
+        <div id="yaBasicTools">
+          <a id="gotoZap" class="tools-link" data-i18n="yaPopupZapper"></a>
+          <a id="gotoPick" class="tools-link" data-i18n="yaPopupPicker"></a>
+          <a href="logger-ui.html#tab_active" class="tools-link" data-i18n="yaPopupLog" target="uBOLogger" tabindex="0"></a>
+          <a href="dashboard.html" class="tools-link" data-i18n="yaPopupDashboard" target="uBODashboard" tabindex="0"></a>
+        </div>
+        <div id="yaExtraTools">
+          <h2 data-i18n="yaExtraToolsTitle"></h2>
+          <div id="no-popups" class="extraToolsItem">
+            <span data-i18n="yaBlockPopups" class="itemtitle"></span>
+            <span class="badge"></span>
+            <span class="hnSwitch"></span>
+          </div>
+          <div id="no-large-media" class="extraToolsItem">
+            <span data-i18n="yaBlockLargeMedia" class="itemtitle"></span>
+            <span class="badge"></span>
+            <span class="hnSwitch"></span>
+          </div>
+          <div id="no-cosmetic-filtering" class="extraToolsItem">
+            <span data-i18n="yaNoCosmeticFiltering" class="itemtitle"></span>
+            <span class="badge">0</span>
+            <span class="hnSwitch"></span>
+          </div>
+          <div id="no-remote-fonts" class="extraToolsItem">
+            <span data-i18n="yaBlockRemoteFonts" class="itemtitle"></span>
+            <span class="badge"></span>
+            <span class="hnSwitch"></span>
+          </div>
+          <button id="refresh" class="button" type="button" data-i18n="yaRefreshButton"></button>
+        </div>
+        <button id="switch" class="button" type="button" data-i18n="yaSwitchButtonOff"></button>
     </div><!-- DO NOT REMOVE --><div class="tooltipContainer">
         <div id="firewallContainer" class="minimized">
-            <div><span data-i18n="popupAnyRulePrompt"></span><span data-src="/" data-des="*" data-type="*" data-i18n-tip="popupTipGlobalRules" data-tip-position="under"> </span><span data-src="." data-des="*" data-type="*" data-i18n-tip="popupTipLocalRules" data-tip-position="under"> </span></div>
+          <div>
+            <span id="minimize"><span data-i18n="popupAnyRulePrompt"></span><span data-i18n="popupAnyRulePrompt2"></span></span>
+            <span data-src="/" data-des="*" data-type="*" data-i18n-tip="popupTipGlobalRules" data-tip-position="under"> </span><span data-src="." data-des="*" data-type="*" data-i18n-tip="popupTipLocalRules" data-tip-position="under"> </span></div>
             <div><span data-i18n="popupImageRulePrompt"></span><span data-src="/" data-des="*" data-type="image"> </span><span data-src="." data-des="*" data-type="image"> </span></div>
             <div><span data-i18n="popup3pAnyRulePrompt"></span><span data-src="/" data-des="*" data-type="3p"> </span><span data-src="." data-des="*" data-type="3p"> </span></div>
             <div><span data-i18n="popupInlineScriptRulePrompt"></span><span data-src="/" data-des="*" data-type="inline-script"> </span><span data-src="." data-des="*" data-type="inline-script"> </span></div>

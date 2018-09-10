@@ -76,6 +76,7 @@ var rowsToRecycle = uDom();
 var cachedPopupHash = '';
 var statsStr = vAPI.i18n('popupBlockedStats');
 var domainsHitStr = vAPI.i18n('popupHitDomainCount');
+var dfPaneTimeout = null;
 
 // https://github.com/gorhill/uBlock/issues/2550
 // Solution inspired from
@@ -385,7 +386,7 @@ var renderPrivacyExposure = function() {
 
     var summary = domainsHitStr.replace('{{count}}', touchedDomainCount.toLocaleString())
                                .replace('{{total}}', allDomainCount.toLocaleString());
-    uDom.nodeFromId('popupHitDomainCount').textContent = summary;
+    uDom.nodeFromId('popupHitDomainCount').innerHTML = summary;
 };
 
 /******************************************************************************/
@@ -418,7 +419,7 @@ var renderPopup = function() {
         text = statsStr.replace('{{count}}', formatNumber(blocked))
                        .replace('{{percent}}', formatNumber(Math.floor(blocked * 100 / total)));
     }
-    uDom.nodeFromId('page-blocked').textContent = text;
+    uDom.nodeFromId('page-blocked').innerHTML = text;
 
     blocked = popupData.globalBlockedRequestCount;
     total = popupData.globalAllowedRequestCount + blocked;
@@ -428,7 +429,7 @@ var renderPopup = function() {
         text = statsStr.replace('{{count}}', formatNumber(blocked))
                        .replace('{{percent}}', formatNumber(Math.floor(blocked * 100 / total)));
     }
-    uDom.nodeFromId('total-blocked').textContent = text;
+    uDom.nodeFromId('total-blocked').innerHTML = text;
 
     // This will collate all domains, touched or not
     renderPrivacyExposure();
@@ -442,17 +443,17 @@ var renderPopup = function() {
     // Report blocked popup count on badge
     total = popupData.popupBlockedCount;
     uDom.nodeFromSelector('#no-popups > span.badge')
-        .textContent = total ? total.toLocaleString() : '';
+        .textContent = total ? total.toLocaleString() : '0';
 
     // Report large media count on badge
     total = popupData.largeMediaCount;
     uDom.nodeFromSelector('#no-large-media > span.badge')
-        .textContent = total ? total.toLocaleString() : '';
+        .textContent = total ? total.toLocaleString() : '0';
 
     // Report remote font count on badge
     total = popupData.remoteFontCount;
     uDom.nodeFromSelector('#no-remote-fonts > span.badge')
-        .textContent = total ? total.toLocaleString() : '';
+        .textContent = total ? total.toLocaleString() : '0';
 
     // https://github.com/chrisaljoudi/uBlock/issues/470
     // This must be done here, to be sure the popup is resized properly
@@ -477,6 +478,9 @@ var renderPopup = function() {
     if ( dfPaneVisible ) {
         buildAllFirewallRows();
     }
+
+    uDom('#switch').text(vAPI.i18n(
+        'yaSwitchButton' + (popupData.netFilteringSwitch ? 'Off' : 'On')));
 
     renderTooltips();
 };
@@ -628,7 +632,7 @@ var onPopupMessage = function(data) {
 
     switch ( data.what ) {
     case 'cosmeticallyFilteredElementCountChanged':
-        var v = data.count || '';
+        var v = data.count || '0';
         uDom.nodeFromSelector('#no-cosmetic-filtering > span.badge')
             .textContent = typeof v === 'number' ? v.toLocaleString() : v;
         break;
@@ -741,6 +745,25 @@ var toggleFirewallPane = function() {
     if ( popupData.dfEnabled && dfPaneBuilt === false ) {
         buildAllFirewallRows();
     }
+};
+
+var handleToggleFirewallMouseOver = function() {
+  clearDfPaneTimeout();
+  toggleFirewallPane(true);
+};
+
+var handleToggleFirewallMouseOut = function() {
+  clearDfPaneTimeout();
+  dfPaneTimeout = setTimeout(function() {
+    toggleFirewallPane(false);
+  }, 300);
+};
+
+var clearDfPaneTimeout = function() {
+  if (dfPaneTimeout) {
+    clearTimeout(dfPaneTimeout);
+    dfPaneTimeout = null;
+  }
 };
 
 /******************************************************************************/
@@ -922,7 +945,7 @@ var revertFirewallRules = function() {
 /******************************************************************************/
 
 var toggleHostnameSwitch = function(ev) {
-    var target = ev.currentTarget;
+    var target = ev.currentTarget.parentNode;
     var switchName = target.getAttribute('id');
     if ( !switchName ) { return; }
     target.classList.toggle('on');
@@ -1048,7 +1071,7 @@ var onShowTooltip = function() {
     }
 
     tip.classList.add('show');
-};
+  };
 
 var onHideTooltip = function() {
     uDom.nodeFromId('tooltip').classList.remove('show');
@@ -1075,12 +1098,12 @@ var onHideTooltip = function() {
 uDom('#switch').on('click', toggleNetFilteringSwitch);
 uDom('#gotoZap').on('click', gotoZap);
 uDom('#gotoPick').on('click', gotoPick);
-uDom('h2').on('click', toggleFirewallPane);
+uDom('.toggleFirewall').on('click', toggleFirewallPane);
 uDom('#refresh').on('click', reloadTab);
 uDom('.hnSwitch').on('click', toggleHostnameSwitch);
 uDom('#saveRules').on('click', saveFirewallRules);
 uDom('#revertRules').on('click', revertFirewallRules);
-uDom('[data-i18n="popupAnyRulePrompt"]').on('click', toggleMinimize);
+uDom('#minimize').on('click', toggleMinimize);
 
 uDom('body').on('mouseenter', '[data-tip]', onShowTooltip)
             .on('mouseleave', '[data-tip]', onHideTooltip);

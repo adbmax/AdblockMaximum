@@ -49,7 +49,7 @@
   },
   "popupPowerSwitchInfo": {
     "message": "ЛКМ: отключить\/включить Adblock Maximum для этого сайта.\n\nCtrl+ЛКМ: отключить Adblock Maximum только на этой странице.",
-    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
+    "description": "English: Click: wisable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
     "message": "Нажмите, чтобы отключить Adblock Maximum для этого сайта.\nCtrl+клик, чтобы отключить Adblock Maximum только на этой странице.",
@@ -68,7 +68,7 @@
     "description": "English: on this page"
   },
   "popupBlockedStats": {
-    "message": "{{count}} или {{percent}}%",
+    "message": "<b>{{count}}</b> {{percent}}%",
     "description": "Example: 15 or 13%"
   },
   "popupBlockedSinceInstallPrompt": {
@@ -160,7 +160,7 @@
     "description": "Tooltip when hovering over the eraser in the dynamic filtering pane."
   },
   "popupAnyRulePrompt": {
-    "message": "все",
+    "message": "Развернуть",
     "description": ""
   },
   "popupImageRulePrompt": {
@@ -196,7 +196,7 @@
     "description": "appears in popup"
   },
   "popupHitDomainCount": {
-    "message": "{{count}} из {{total}}",
+    "message": "<b>{{count}}</b> из {{total}}",
     "description": "appears in popup"
   },
   "pickerCreate": {
@@ -774,6 +774,62 @@
   "shortcutCapturePlaceholder": {
     "message": "Введите сочетание",
     "description": "Placeholder string for input field used to capture a keyboard shortcut"
+  },
+  "yaPopupZapper": {
+    "message": "Заблокировать элементы",
+    "description": "element-zapper in the popup panel"
+  },
+  "yaPopupPicker": {
+    "message": "Выбор элементов",
+    "description": "element-picker link in the popup panel"
+  },
+  "yaPopupLog": {
+    "message": "Журнал сетевых запросов",
+    "description": "logger link in the popup panel"
+  },
+  "yaPopupDashboard": {
+    "message": "Настройки",
+    "description": "dashboard link in the popup panel"
+  },
+  "yaExtraToolsTitle": {
+    "message": "Заблокировать",
+    "description": "extra tools header in the popup panel"
+  },
+  "yaBlockPopups": {
+    "message": "Всплывающие окна",
+    "description": "block popups link in the popup panel"
+  },
+  "yaBlockLargeMedia": {
+    "message": "Элементы мультимедиа",
+    "description": "no-large-media link in the popup panel"
+  },
+  "yaNoCosmeticFiltering": {
+    "message": "Косметические фильтры",
+    "description": "no-cosmetic-filtering link in the popup panel"
+  },
+  "yaBlockRemoteFonts": {
+    "message": "Сторонние шрифты",
+    "description": "no-remote-fonts link in the popup panel"
+  },
+  "yaSwitchButtonOff": {
+    "message": "Отключить на этом сайте",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
+  },
+  "yaSwitchButtonOn": {
+    "message": "Включить на этом сайте",
+    "description": "English: Click: enable\/enable Adblock Maximum for this site.\n\nCtrl+click: enable Adblock Maximum only on this page."
+  },
+  "yaHideFirewallData": {
+    "message": "Свернуть",
+    "description": "hide firewall data in the popup panel"
+  },
+  "popupAnyRulePrompt2": {
+    "message": "Свернуть",
+    "description": ""
+  },
+  "yaRefreshButton": {
+    "message": "Обновить страницу",
+    "description": "Refresh button on the popup page"
   },
   "dummy": {
     "message": "Эта запись должна быть последней",

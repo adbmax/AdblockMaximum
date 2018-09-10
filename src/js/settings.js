@@ -181,13 +181,13 @@ var resetUserData = function() {
 
 /******************************************************************************/
 
-var synchronizeDOM = function() {
+/*var synchronizeDOM = function() {
     document.body.classList.toggle(
         'advancedUser',
         uDom.nodeFromId('advanced-user-enabled').checked === true
     );
 };
-
+*/
 /******************************************************************************/
 
 var changeUserSettings = function(name, value) {
