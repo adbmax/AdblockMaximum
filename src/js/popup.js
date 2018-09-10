@@ -585,7 +585,7 @@ var renderOnce = function() {
     let rpane = uDom.nodeFromSelector('#panes > div:first-of-type'),
         lpane = uDom.nodeFromSelector('#panes > div:last-of-type');
 
-    lpane.style.setProperty('height', rpane.offsetHeight + 'px');
+    lpane.style.setProperty('height', (rpane.offsetHeight - 36) + 'px');
 
     // Be prepared to fall into responsive mode if ever it is found the
     // viewport is not a perfect match for the popup panel.

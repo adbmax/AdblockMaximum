@@ -89,7 +89,7 @@ body.hideUnused #listsOfBlockedHostsPrompt:before {
     opacity: 1;
     }
 .listEntry.support > a.support {
-    display: inline-block;
+    display: none;
     }
 .listEntry > a.remove,
 .listEntry > a.remove:visited {
@@ -99,7 +99,7 @@ body.hideUnused #listsOfBlockedHostsPrompt:before {
     display: inline-block;
     }
 .listEntry.mustread > a.mustread {
-    display: inline-block;
+    display: none;
     }
 .listEntry.mustread > a.mustread:hover {
     color: mediumblue;
