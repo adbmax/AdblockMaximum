@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ – Dashboard",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum – Dashboard",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Instellingen",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ – Logger",
+    "message": "Adblock Maximum – Logger",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klikken: uBlock₀ voor deze website in- of uitschakelen.\n\nCtrl+klikken: uBlock₀ alleen voor deze pagina uitschakelen.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Klikken: Adblock Maximum voor deze website in- of uitschakelen.\n\nCtrl+klikken: Adblock Maximum alleen voor deze pagina uitschakelen.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klik om uBlock₀ voor deze website uit te schakelen.\n\nCtrl+klik om uBlock₀ alleen op deze pagina uit te schakelen.",
+    "message": "Klik om Adblock Maximum voor deze website uit te schakelen.\n\nCtrl+klik om Adblock Maximum alleen op deze pagina uit te schakelen.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klik om uBlock₀ voor deze website in te schakelen.",
+    "message": "Klik om Adblock Maximum voor deze website in te schakelen.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Deze optie schakelt het inlezen en toepassen van <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-compatibele &lsquo;elementverbergende&rsquo; filters<\/a> in. Deze filters zijn puur cosmetisch; ze verbergen elementen in de webpagina die visueel storend kunnen zijn en niet door de op netwerkaanvragen gebaseerde filter-engine kunnen worden geblokkeerd.<\/p><p>Het inschakelen van deze functie verhoogt het geheugengebruik van uBlock₀.<\/p>",
+    "message": "<p>Deze optie schakelt het inlezen en toepassen van <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-compatibele &lsquo;elementverbergende&rsquo; filters<\/a> in. Deze filters zijn puur cosmetisch; ze verbergen elementen in de webpagina die visueel storend kunnen zijn en niet door de op netwerkaanvragen gebaseerde filter-engine kunnen worden geblokkeerd.<\/p><p>Het inschakelen van deze functie verhoogt het geheugengebruik van Adblock Maximum.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Algemene cosmetische filters zijn die cosmetische filters die zijn bedoeld om op alle websites te worden toegepast.<p>Hoewel ze efficiënt door uBlock₀ worden verwerkt, kunnen algemene cosmetische filters op sommige webpagina’s toch bijdragen aan meetbare geheugen- en cpu-overhead, met name op grote pagina’s en die met een lange levensduur.<p>Het inschakelen van deze optie elimineert de aan webpagina’s toegevoegde geheugen- en cpu-overhead als gevolg van het verwerken van algemene cosmetische filters, en verlaagt tevens het geheugengebruik van uBlock₀ zelf.<p>Het wordt aanbevolen deze optie op minder krachtige apparaten in te schakelen.",
+    "message": "<p>Algemene cosmetische filters zijn die cosmetische filters die zijn bedoeld om op alle websites te worden toegepast.<p>Hoewel ze efficiënt door Adblock Maximum worden verwerkt, kunnen algemene cosmetische filters op sommige webpagina’s toch bijdragen aan meetbare geheugen- en cpu-overhead, met name op grote pagina’s en die met een lange levensduur.<p>Het inschakelen van deze optie elimineert de aan webpagina’s toegevoegde geheugen- en cpu-overhead als gevolg van het verwerken van algemene cosmetische filters, en verlaagt tevens het geheugengebruik van Adblock Maximum zelf.<p>Het wordt aanbevolen deze optie op minder krachtige apparaten in te schakelen.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Ingebouwd",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Advertenties",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "mijn-ublock-statische-filters_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "mijn-adm-statische-filters_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Wijzigingen toepassen",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "mijn-ublock-dynamische-regels_{{datetime}}.txt",
+    "message": "mijn-adm-dynamische-regels_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "De whitelist-instructies schrijven voor op welke webpagina’s uBlock Origin dient te worden uitgeschakeld. Eén vermelding per regel. Ongeldige instructies worden zonder mededeling genegeerd en uitgecommentarieerd.",
+    "message": "De whitelist-instructies schrijven voor op welke webpagina’s Adblock Maximum dient te worden uitgeschakeld. Eén vermelding per regel. Ongeldige instructies worden zonder mededeling genegeerd en uitgecommentarieerd.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "mijn-ublock-whitelist_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "mijn-adm-whitelist_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Wijzigingen toepassen",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "mijn-ublock-back-up_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "mijn-adm-back-up_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Terugzetten uit bestand...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Al uw instellingen zullen met back-upgegevens van {{time}} worden overschreven, en uBlock₀ zal worden herstart.\n\nWilt u alle bestaande instellingen met back-upgegevens overschrijven?",
+    "message": "Al uw instellingen zullen met back-upgegevens van {{time}} worden overschreven, en Adblock Maximum zal worden herstart.\n\nWilt u alle bestaande instellingen met back-upgegevens overschrijven?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Al uw instellingen zullen worden verwijderd, waarna uBlock₀ wordt herstart.\n\nStandaardwaarden van uBlock₀ terugzetten?",
+    "message": "Al uw instellingen zullen worden verwijderd, waarna Adblock Maximum wordt herstart.\n\nStandaardwaarden van Adblock Maximum terugzetten?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: de volgende URL aan uw lijsten met aangepaste filters toevoegen?\n\nTitel: ‘{{title}}’\nURL: {{url}}",
+    "message": "Adblock Maximum: de volgende URL aan uw lijsten met aangepaste filters toevoegen?\n\nTitel: ‘{{title}}’\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "uitgeschakeld",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock₀ heeft het laden van de volgende pagina voorkomen:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum heeft het laden van de volgende pagina voorkomen:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "vanwege het volgende filter",

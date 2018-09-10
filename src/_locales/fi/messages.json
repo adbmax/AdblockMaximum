@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Hallintapaneeli",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Hallintapaneeli",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Asetukset",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Verkkopyyntöjen loki",
+    "message": "Adblock Maximum — Verkkopyyntöjen loki",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Painallus: poista käytöstä\/ota käyttöön uBlock₀ tällä sivustolla.\n\nCtrl+painallus: poista uBlock₀ käytöstä vain tällä sivulla.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Painallus: poista käytöstä\/ota käyttöön Adblock Maximum tällä sivustolla.\n\nCtrl+painallus: poista Adblock Maximum käytöstä vain tällä sivulla.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klikkaa poistaksesi uBlock₀:n käytöstä tällä sivustolla.\n\nCtrl+klikkaus poistaaksesi uBlock₀:n käytöstä vain tällä sivulla.",
+    "message": "Klikkaa poistaksesi Adblock Maximum:n käytöstä tällä sivustolla.\n\nCtrl+klikkaus poistaaksesi Adblock Maximum:n käytöstä vain tällä sivulla.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klikkaa ottaaksesi uBlock₀:n käyttöön tällä sivustolla.",
+    "message": "Klikkaa ottaaksesi Adblock Maximum:n käyttöön tällä sivustolla.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Tämä asetus ottaa käyttöön <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-yhteensopivat &ldquo;elementtejä piilottavat&rdquo; suodattimet<\/a>. Nämä suodattimet ovat pääasiassa ehosteita. Ne piilottavat verkkosivuilta elementtejä, jotka ovat visuaalisesti häiritseviä eikä niitä voi estää verkkopyyntöihin pohjautuvalla suodatinmoottorilla. <\/p><p>Tämä ominaisuus nostaa <i>uBlock₀<\/i>in muistinkäyttöä.<\/p>",
+    "message": "<p>Tämä asetus ottaa käyttöön <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-yhteensopivat &ldquo;elementtejä piilottavat&rdquo; suodattimet<\/a>. Nämä suodattimet ovat pääasiassa ehosteita. Ne piilottavat verkkosivuilta elementtejä, jotka ovat visuaalisesti häiritseviä eikä niitä voi estää verkkopyyntöihin pohjautuvalla suodatinmoottorilla. <\/p><p>Tämä ominaisuus nostaa <i>Adblock Maximum<\/i>in muistinkäyttöä.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Yleiset kosmeettiset suotimet ovat ne kosmeettiset suotimet joiden on tarkoitus päteä kaikkiin web-sivustoihin.<p>Vaikka uBlock₀ käsittelee ne tehokkaasti, yleiset kosmeettiset suotimet voivat silti lisätä mitattavaa muisti- ja CPU-ylikuormitusta joillakin web-sivuilla, erityisesti suurilla ja pitkäikäisillä sivuilla.<p>Tämän valinnan salliminen karsii pois web-sivuille lisätyn muisti- ja CPU-ylikuormituksen joka aiheutuu yleisten kosmeettisten suotimien käsittelystä, ja alentaa myös uBlock₀ sovelluksen muisti-jalanjälkeä.<p>On suositeltavaa sallia tämä vaihtoehto vähemmän tehokkailla laitteilla.",
+    "message": "<p>Yleiset kosmeettiset suotimet ovat ne kosmeettiset suotimet joiden on tarkoitus päteä kaikkiin web-sivustoihin.<p>Vaikka Adblock Maximum käsittelee ne tehokkaasti, yleiset kosmeettiset suotimet voivat silti lisätä mitattavaa muisti- ja CPU-ylikuormitusta joillakin web-sivuilla, erityisesti suurilla ja pitkäikäisillä sivuilla.<p>Tämän valinnan salliminen karsii pois web-sivuille lisätyn muisti- ja CPU-ylikuormituksen joka aiheutuu yleisten kosmeettisten suotimien käsittelystä, ja alentaa myös Adblock Maximum sovelluksen muisti-jalanjälkeä.<p>On suositeltavaa sallia tämä vaihtoehto vähemmän tehokkailla laitteilla.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Built-in",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Mainokset",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "staattiset-ublock-suodattimeni_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "staattiset-adm-suodattimeni_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Vahvista muutokset",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "dynaamiset-ublock-saantoni_{{datetime}}.txt",
+    "message": "dynaamiset-adm-saantoni_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Lista osoitteista, joissa haluat kytkeä uBlock₀:n pois päältä. Kirjoita yksi osoite kullekin riville. Virheelliset säännöt ohitetaan.",
+    "message": "Lista osoitteista, joissa haluat kytkeä Adblock Maximum:n pois päältä. Kirjoita yksi osoite kullekin riville. Virheelliset säännöt ohitetaan.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "minun-ublock-valkolista_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "minun-adm-valkolista_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Vahvista muutokset",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "minun-ublock-varmuuskopio_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "minun-adm-varmuuskopio_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Palauta tiedostosta...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Kaikki asetuksesi korvataan käyttäen tietoja, jotka on varmuuskopioitu {{time}} ja uBlock₀ käynnistyy uudelleen.\nPäällekirjoitetaanko kaikki nykyiset asetukset käyttäen varmuuskopioituja tietoja?",
+    "message": "Kaikki asetuksesi korvataan käyttäen tietoja, jotka on varmuuskopioitu {{time}} ja Adblock Maximum käynnistyy uudelleen.\nPäällekirjoitetaanko kaikki nykyiset asetukset käyttäen varmuuskopioituja tietoja?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Kaikki asetuksesi poistetaan ja uBlock₀ käynnistyy uudelleen. \n\nPalautetaanko uBlock₀ oletusasetuksiin?",
+    "message": "Kaikki asetuksesi poistetaan ja Adblock Maximum käynnistyy uudelleen. \n\nPalautetaanko Adblock Maximum oletusasetuksiin?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Lisää seuraava URL-osoite mukautettujen suodattimien luetteloihisi?\n\nNimi: \"{{title}}\"\nURL-osoite: {{url}}",
+    "message": "Adblock Maximum: Lisää seuraava URL-osoite mukautettujen suodattimien luetteloihisi?\n\nNimi: \"{{title}}\"\nURL-osoite: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "pois päältä",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin on estänyt seuraavaa sivua lataamasta:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum on estänyt seuraavaa sivua lataamasta:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Seuraavan suodattimen takia",

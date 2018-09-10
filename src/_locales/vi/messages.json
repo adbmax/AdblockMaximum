@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Bảng điều khiển",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Bảng điều khiển",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Cấu hình",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Nhật ký các yêu cầu",
+    "message": "Adblock Maximum — Nhật ký các yêu cầu",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Nhấp chuột: vô hiệu\/kích hoạt uBlock₀ cho trang này.\nCtrl + nhấp chuột: chỉ vô hiệu uBlock₀ trên trang này.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Nhấp chuột: vô hiệu\/kích hoạt Adblock Maximum cho trang này.\nCtrl + nhấp chuột: chỉ vô hiệu Adblock Maximum trên trang này.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Nhấp chuột để tắt uBlock₀ đối với toàn bộ tên miền này (site). \n\nCtrl + nhấp chuột để tắt uBlock₀ chỉ tại trang này (page).",
+    "message": "Nhấp chuột để tắt Adblock Maximum đối với toàn bộ tên miền này (site). \n\nCtrl + nhấp chuột để tắt Adblock Maximum chỉ tại trang này (page).",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Nhấp để bật uBlock₀ trên trang này.",
+    "message": "Nhấp để bật Adblock Maximum trên trang này.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Tuỳ chọn này kích hoạt phân tích và áp dụng <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">các bộ lọc &ldquo;ẩn phần tử&rdquo; tương thích với Adblock Plus<\/a>. Những bộ lọc này dùng để ẩn phần tử trong một trang web được xem là gây phiền hà đến thị giác và không thể chặn bởi bộ lọc dựa địa chỉ trang web.<\/p><p>Kích hoạt tính năng này sẽ tăng mức sử dụng bộ nhớ của uBlock₀.<\/p>",
+    "message": "<p>Tuỳ chọn này kích hoạt phân tích và áp dụng <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">các bộ lọc &ldquo;ẩn phần tử&rdquo; tương thích với Adblock Plus<\/a>. Những bộ lọc này dùng để ẩn phần tử trong một trang web được xem là gây phiền hà đến thị giác và không thể chặn bởi bộ lọc dựa địa chỉ trang web.<\/p><p>Kích hoạt tính năng này sẽ tăng mức sử dụng bộ nhớ của Adblock Maximum.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Bộ lọc phần tử ẩn chung là là những bộ lọc phần tử ẩn áp dụng cho tất cả các website.<p>Mặc dù được xử lý hiệu quả bởi uBlock₀, các bộ lọc phần tử ẩn chung vẫn chiếm dụng bộ nhớ và CPU quá mức trên một số trang web, đặc biệt là các trang lớn và lâu năm.<p>Kích hoạt tuỳ chọn này sẽ loại bỏ sử dụng bộ nhớ và CPU quá mức thêm vào trang web nhờ khả năng xử lý các bộ lọc phần tử ẩn chung và cũng làm giảm sử dụng bộ nhớ của uBlock₀.<p>Chúng tôi khuyến cáo bạn nên kích hoạt tuỳ chọn này trên các thiết bị không quá mạnh.",
+    "message": "<p>Bộ lọc phần tử ẩn chung là là những bộ lọc phần tử ẩn áp dụng cho tất cả các website.<p>Mặc dù được xử lý hiệu quả bởi Adblock Maximum, các bộ lọc phần tử ẩn chung vẫn chiếm dụng bộ nhớ và CPU quá mức trên một số trang web, đặc biệt là các trang lớn và lâu năm.<p>Kích hoạt tuỳ chọn này sẽ loại bỏ sử dụng bộ nhớ và CPU quá mức thêm vào trang web nhờ khả năng xử lý các bộ lọc phần tử ẩn chung và cũng làm giảm sử dụng bộ nhớ của Adblock Maximum.<p>Chúng tôi khuyến cáo bạn nên kích hoạt tuỳ chọn này trên các thiết bị không quá mạnh.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Trên máy",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Quảng cáo",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "my-ublock-static-filters_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "my-adm-static-filters_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Áp dụng các thay đổi",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "my-ublock-dynamic-rules_{{datetime}}.txt",
+    "message": "my-adm-dynamic-rules_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Danh sách tên các máy chủ mà uBlock₀ sẽ bị chặn. Một mục nhập trên mỗi dòng. Tên máy chủ không hợp lệ sẽ được tự động bỏ qua.",
+    "message": "Danh sách tên các máy chủ mà Adblock Maximum sẽ bị chặn. Một mục nhập trên mỗi dòng. Tên máy chủ không hợp lệ sẽ được tự động bỏ qua.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "my-ublock-whitelist_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "my-adm-whitelist_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Áp dụng các thay đổi",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "my-ublock-backup_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "my-adm-backup_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Khôi phục từ tập tin...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Các thiết lập của bạn sẽ bị ghi đè bởi dữ liệu đã lưu vào lúc {{time}}, và uBlock₀ sẽ khởi động lại. \n\nGhi đè các thiết lập hiện tại bằng dữ liệu đã lưu?",
+    "message": "Các thiết lập của bạn sẽ bị ghi đè bởi dữ liệu đã lưu vào lúc {{time}}, và Adblock Maximum sẽ khởi động lại. \n\nGhi đè các thiết lập hiện tại bằng dữ liệu đã lưu?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Các thiết lập sẽ bị xóa và uBlock₀ sẽ khởi động lại. \n\nThiết lập uBlock₀ về cấu hình ban đầu?",
+    "message": "Các thiết lập sẽ bị xóa và Adblock Maximum sẽ khởi động lại. \n\nThiết lập Adblock Maximum về cấu hình ban đầu?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Thêm URL dưới đây vào bộ lọc tuỳ biến của bạn?\n\nTên: \"{{title}}\"\nURL: {{url}}",
+    "message": "Adblock Maximum: Thêm URL dưới đây vào bộ lọc tuỳ biến của bạn?\n\nTên: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "tắt",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
     "message": "uBloc Origin đã chặn tải trang sau:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Vì bộ lọc sau",

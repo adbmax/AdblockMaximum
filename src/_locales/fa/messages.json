@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — داشبورد",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — داشبورد",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "تنظیمات",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — واقعه‌نگار",
+    "message": "Adblock Maximum — واقعه‌نگار",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "کلیک: غیر فعال\/ فعال کردن uBlock₀ برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن uBlock₀ فقط برای همین صفحه.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "کلیک: غیر فعال\/ فعال کردن Adblock Maximum برای این سایت.\n\nکنترل+کلیک: غیر فعال کردن Adblock Maximum فقط برای همین صفحه.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "کلیک کنید تا uBlock₀ برای این سایت غیر فعال شود.\n\nهمزمان کلیدکنترل را نگهدارید و کلیک کنید تا uBlock₀ فقط برای این صفحه غیر فعال شود.",
+    "message": "کلیک کنید تا Adblock Maximum برای این سایت غیر فعال شود.\n\nهمزمان کلیدکنترل را نگهدارید و کلیک کنید تا Adblock Maximum فقط برای این صفحه غیر فعال شود.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "کلیک کنید تا uBlock₀ برای این سایت فعال شود.",
+    "message": "کلیک کنید تا Adblock Maximum برای این سایت فعال شود.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>این گزینه <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">فیلترهای &ldquo;مخفی‌کردن اشیا&rdquo; سازگار با ادبلاک پلاس<\/a> را تجزیه و اجرا میکند. این فیلتر ها اساساً فنی هستند، آنها اشیاء موجود در صفحه وب را که مزاحم تلقی میشوند و با موتور فیلترینگ شبکه قابل بلاک کردن نیستند را حذف میکنند.<\/p><p>فعال کردن این قابلیت مصرف حافظه ی uBlock را افزایش میدهد.<\/p>",
+    "message": "<p>این گزینه <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">فیلترهای &ldquo;مخفی‌کردن اشیا&rdquo; سازگار با ادبلاک پلاس<\/a> را تجزیه و اجرا میکند. این فیلتر ها اساساً فنی هستند، آنها اشیاء موجود در صفحه وب را که مزاحم تلقی میشوند و با موتور فیلترینگ شبکه قابل بلاک کردن نیستند را حذف میکنند.<\/p><p>فعال کردن این قابلیت مصرف حافظه ی Adblock Maximum را افزایش میدهد.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>فیلترهای زیبا سازی عمومی، آن دسته از فیلترهای زیبا سازی هستند که در همه وب سایت ها کاربرد دارند.\n<p>اگر چه بصورت موثر توسط uBlock₀ انجام شده، ولی فیلترهای عمومی زیبا سازی هنوز هم ممکن است سربار حافظه قابل اندازه گیری و سربار پردازنده در برخی از صفحات وب به جای بگذارد، به ویژه برای صفحات وب بزرگ و طولانی مدت.<p>فعال کردن این گزینه سربارهای حافظه و پردازنده را که به صفحات اضافه شده به عنوان نتیجۀ اجرای فیلترهای عمومی زیبا سازی برطرف می‌کند، و همچنین ردپای حافظۀ خود uBlock₀ را کمتر می‌کند<p>توصیه می شود این گزینه را در دستگاه های با قدرت کمتر فعال کنید.",
+    "message": "<p>فیلترهای زیبا سازی عمومی، آن دسته از فیلترهای زیبا سازی هستند که در همه وب سایت ها کاربرد دارند.\n<p>اگر چه بصورت موثر توسط Adblock Maximum انجام شده، ولی فیلترهای عمومی زیبا سازی هنوز هم ممکن است سربار حافظه قابل اندازه گیری و سربار پردازنده در برخی از صفحات وب به جای بگذارد، به ویژه برای صفحات وب بزرگ و طولانی مدت.<p>فعال کردن این گزینه سربارهای حافظه و پردازنده را که به صفحات اضافه شده به عنوان نتیجۀ اجرای فیلترهای عمومی زیبا سازی برطرف می‌کند، و همچنین ردپای حافظۀ خود Adblock Maximum را کمتر می‌کند<p>توصیه می شود این گزینه را در دستگاه های با قدرت کمتر فعال کنید.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "محلی",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "تبلیغات",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "my-ublock-static-filters_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "my-adm-static-filters_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "اعمال تغییرات",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "my-ublock-dynamic-rules_{{datetime}}.txt",
+    "message": "my-adm-dynamic-rules_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "دستور العمل‌های لیست سفید حکم می‌کند که uBlock₀ باید بر روی کدام یک از صفحات وب غیر فعال باشد. در هر خط فقط یک مورد. دستور العمل‌های نامعتبر بدون اشاره ای نادیده گرفته شده و بیرون انداخته می‌شوند.",
+    "message": "دستور العمل‌های لیست سفید حکم می‌کند که Adblock Maximum باید بر روی کدام یک از صفحات وب غیر فعال باشد. در هر خط فقط یک مورد. دستور العمل‌های نامعتبر بدون اشاره ای نادیده گرفته شده و بیرون انداخته می‌شوند.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "my-ublock-whitelist_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "my-adm-whitelist_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "اعمال تغییرات",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "my-ublock-backup_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "my-adm-backup_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "بازیابی از فایل...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و uBlock₀ مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟",
+    "message": "تمام تنظیمات با استفاده از پشتیبان گیری در {{time}}،  رونویسی شده و Adblock Maximum مجدد راه اندازی میشود.\n\nتمام تنظیمات موجود با استفاده از داده های پشتیبانی رونویسی شود؟",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "تمام تنظیمات شما حذف شده و uBlock₀ دوباره راه اندازی خواهد شد.\n\nتنظیم مجدد uBlock₀ به تنظیمات کارخانه؟",
+    "message": "تمام تنظیمات شما حذف شده و Adblock Maximum دوباره راه اندازی خواهد شد.\n\nتنظیم مجدد Adblock Maximum به تنظیمات کارخانه؟",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: آدرس اینترنتی زیر به فهرست فیلتر های سفارشی شما اضافه شود؟\n\nعنوان: \"{{title}}\"\nآدرس: {{url}}",
+    "message": "Adblock Maximum: آدرس اینترنتی زیر به فهرست فیلتر های سفارشی شما اضافه شود؟\n\nعنوان: \"{{title}}\"\nآدرس: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "خاموش",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock₀ از بارگذاری این صفحات جلوگیری کرده:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum از بارگذاری این صفحات جلوگیری کرده:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "بخاطر فیلتر زیر",

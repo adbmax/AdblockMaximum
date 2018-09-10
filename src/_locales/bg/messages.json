@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock₀",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Табло",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Табло",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Настройки",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Дневник на мрежовите заявки",
+    "message": "Adblock Maximum — Дневник на мрежовите заявки",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,11 +48,11 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Щракване: изключва\/включва uBlock₀ за този сайт.\n\nCtrl + щракване: изключва uBlock₀ само за тази страница.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Щракване: изключва\/включва Adblock Maximum за този сайт.\n\nCtrl + щракване: изключва Adblock Maximum само за тази страница.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Щракване: изключва uBlock₀ за този сайт.\n\nCtrl + щракване: изключва uBlock₀ само за тази страница.",
+    "message": "Щракване: изключва Adblock Maximum за този сайт.\n\nCtrl + щракване: изключва Adblock Maximum само за тази страница.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Настройката разрешава синтактично обособяване и налагане на <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> съвместими с Adblock Plus филтри за &ldquo;скриване на елементи&rdquo;<\/a>. Козметични по същество, филтрите скриват визуално неприятни елементи в страницата, които иначе не се блокират от системата за филтриране по мрежова заявка.<\/p><p>Разрешаването ѝ ще увеличи ползваната от uBlock₀ памет.<\/p>",
+    "message": "<p>Настройката разрешава синтактично обособяване и налагане на <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\"> съвместими с Adblock Plus филтри за &ldquo;скриване на елементи&rdquo;<\/a>. Козметични по същество, филтрите скриват визуално неприятни елементи в страницата, които иначе не се блокират от системата за филтриране по мрежова заявка.<\/p><p>Разрешаването ѝ ще увеличи ползваната от Adblock Maximum памет.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Общокозметични са филтрите, предназначени за прилагане във всички сайтове.<p>И макар че се ползват ефективно в uBlock₀, те могат съществено да увеличат натоварването на паметта и процесора в определени страници, особено в такива обемисти и дългозареждащи се.<p>Разрешаването ѝ ще премахне натоварването им в тях, поради начина на боравене с общокозметични филтри, както и ще намали ползваната от uBlock₀ памет.<p>Ползването на настройката се препоръчва при по-слаби устройства.",
+    "message": "<p>Общокозметични са филтрите, предназначени за прилагане във всички сайтове.<p>И макар че се ползват ефективно в Adblock Maximum, те могат съществено да увеличат натоварването на паметта и процесора в определени страници, особено в такива обемисти и дългозареждащи се.<p>Разрешаването ѝ ще премахне натоварването им в тях, поради начина на боравене с общокозметични филтри, както и ще намали ползваната от Adblock Maximum памет.<p>Ползването на настройката се препоръчва при по-слаби устройства.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Вградени",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Реклами",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "ublock-мои-филтри_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "adm-мои-филтри_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Прилагане на промените",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "ublock-мои-правила_{{datetime}}.txt",
+    "message": "adm-мои-правила_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Списък на адресите, за които uBlock₀ ще бъде изключен. Един елемент на ред. Невалидните адреси ще бъдат игнорирани.",
+    "message": "Списък на адресите, за които Adblock Maximum ще бъде изключен. Един елемент на ред. Невалидните адреси ще бъдат игнорирани.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "ublock-изключения_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "adm-изключения_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Прилагане на промените",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "ublock-всички-настройки_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "adm-всички-настройки_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Внасяне от файл...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Всички ваши настройки ще бъдат презаписани с данни, архивирани на {{time}} и uBlock₀ ще се рестартира.\n\nПрезаписване на всички съществуващи настройки, използвайки архивираните данни?",
+    "message": "Всички ваши настройки ще бъдат презаписани с данни, архивирани на {{time}} и Adblock Maximum ще се рестартира.\n\nПрезаписване на всички съществуващи настройки, използвайки архивираните данни?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Всички ваши настройки ще бъдат премахнати и uBlock₀ ще се рестартира.\n\nВръщане на uBlock₀ към стандартните настройки?",
+    "message": "Всички ваши настройки ще бъдат премахнати и Adblock Maximum ще се рестартира.\n\nВръщане на Adblock Maximum към стандартните настройки?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Добавяне на следния адрес към вашият списък с потребителски филтри?\n\nИме: \"{{title}}\"\nURL адрес: {{url}}",
+    "message": "Adblock Maximum: Добавяне на следния адрес към вашият списък с потребителски филтри?\n\nИме: \"{{title}}\"\nURL адрес: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "изключен",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin предотврати зареждането на страницата:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum предотврати зареждането на страницата:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Блокиращ филтър",

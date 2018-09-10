@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Контролна табла",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Контролна табла",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Подешавања",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Евиденција",
+    "message": "Adblock Maximum — Евиденција",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -49,7 +49,7 @@
   },
   "popupPowerSwitchInfo": {
     "message": "Клик: онемогући\/омогући µBlock₀ за овај сајт.\n\nCtrl+клик: онемогући\/омогући µBlock₀ само за ову страницу.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
     "message": "Кликните да бисте онемогућили µBlock₀ за овај сајт.\n\nCtrl+клик да бисте онемогућили µBlock₀ само на овој страници.",
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Ова опција омогућава рашчлањавање и спровођење <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus компатибилних филтера &ldquo;за сакривање елемената&rdquo; <\/a>. Ови филтери су углавном естетски, они служе за сакривање елемената на веб страници који се сматрају визуелном сметњом и који не могу бити блокирани од стране мрежних захтева базираних на филтрирању.<\/p><p>Омогућавањем ове функције повећава се количина меморије коју uBlock₀ користи.<\/p>",
+    "message": "<p>Ова опција омогућава рашчлањавање и спровођење <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus компатибилних филтера &ldquo;за сакривање елемената&rdquo; <\/a>. Ови филтери су углавном естетски, они служе за сакривање елемената на веб страници који се сматрају визуелном сметњом и који не могу бити блокирани од стране мрежних захтева базираних на филтрирању.<\/p><p>Омогућавањем ове функције повећава се количина меморије коју Adblock Maximum користи.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Општи естетски филтери су они естетски филтери који су намењени за примену на свим сајтовима.<p>Иако uBlock₀ ефикасно рукује њима, општи естетски филтери могу довести до повећане потрошње меморије и оптерећења процесора на неким страницама, нарочито на оним великим. <p>Омогућавањем ове опције, елиминисаће се повећана потрошња меморије и оптерећење процесора на страницама као резултат руковања општим естетским филтерима, а такође и смањити меморијски отисак самог uBlock₀-а.<p>Препоручује се да се ова опција омогући на мање моћним уређајима.",
+    "message": "<p>Општи естетски филтери су они естетски филтери који су намењени за примену на свим сајтовима.<p>Иако Adblock Maximum ефикасно рукује њима, општи естетски филтери могу довести до повећане потрошње меморије и оптерећења процесора на неким страницама, нарочито на оним великим. <p>Омогућавањем ове опције, елиминисаће се повећана потрошња меморије и оптерећење процесора на страницама као резултат руковања општим естетским филтерима, а такође и смањити меморијски отисак самог Adblock Maximum-а.<p>Препоручује се да се ова опција омогући на мање моћним уређајима.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Уграђени",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Рекламе",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "моји-ublock-филтери_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "моји-adm-филтери_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Примени промене",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "моја-ublock-динамичка-правила_{{datetime}}.txt",
+    "message": "моја-adm-динамичка-правила_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Смернице дозвољених домена диктирају на којим веб страницама би uBlock Origin требало бити онемогућен. Један унос по реду. Неисправне смернице ће бити тихо занемарене.",
+    "message": "Смернице дозвољених домена диктирају на којим веб страницама би Adblock Maximum требало бити онемогућен. Један унос по реду. Неисправне смернице ће бити тихо занемарене.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "моја-ublock-листа_дозвољених_домена{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "моја-adm-листа_дозвољених_домена{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Примени промене",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "ublock-backup_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "adm-backup_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Врати из датотеке...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Сва ваша подешавања ће бити прегажена резервном копијом података сачуваним {{time}} и uBlock₀ ће се поново покренути.\n\nПрегазити сва постојећа подешавања резервном копијом података?",
+    "message": "Сва ваша подешавања ће бити прегажена резервном копијом података сачуваним {{time}} и Adblock Maximum ће се поново покренути.\n\nПрегазити сва постојећа подешавања резервном копијом података?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Додати следећу УРЛ адресу у вашу прилагођену листу филтера?\n\nНазив: \"{{title}}\"\nУРЛ: {{url}}",
+    "message": "Adblock Maximum: Додати следећу УРЛ адресу у вашу прилагођену листу филтера?\n\nНазив: \"{{title}}\"\nУРЛ: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "искључен",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin је спречио учитавање следеће странице:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum је спречио учитавање следеће странице:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "због следећег филтера",

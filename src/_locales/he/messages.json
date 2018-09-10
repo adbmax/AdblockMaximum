@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock₀",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — פאנל הקונפיגורציות",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — פאנל הקונפיגורציות",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "הגדרות",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — מתעד הבקשות",
+    "message": "Adblock Maximum — מתעד הבקשות",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "לחיצה: כבה\/הפעל את uBlock₀ לאתר זה לצמיתות.\n\nCtrl+לחיצה: כבה את uBlock₀ רק בדף זה.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "לחיצה: כבה\/הפעל את Adblock Maximum לאתר זה לצמיתות.\n\nCtrl+לחיצה: כבה את Adblock Maximum רק בדף זה.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "לחיצה: כבה את uBlock₀ לאתר זה.\n\nCtrl+לחיצה: כבה את uBlock₀ רק בדף זה.",
+    "message": "לחיצה: כבה את Adblock Maximum לאתר זה.\n\nCtrl+לחיצה: כבה את Adblock Maximum רק בדף זה.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "לחץ על מנת להפעיל את uBlock₀ באתר זה.",
+    "message": "לחץ על מנת להפעיל את Adblock Maximum באתר זה.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>אפשרות זו מאפשרת פירסור ואיפשור של <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">מסנני &ldquo;ההסתרת האלמנטים&rdquo; התואמים ל Adblock Plus<\/a>. מסננים אלו הם קוסמטיים, הם נועדו להסתיר אלמנטים בדף אשר נחשבים למטרד חזותי, ואשר לא יכולים להיחסם על ידי מנוע חסימת בקשות רשת.<\/p><p>הפעלת פיצ'ר זה מעלה את צריכת הזיכרון של <i>uBlock₀<\/i><\/p>",
+    "message": "<p>אפשרות זו מאפשרת פירסור ואיפשור של <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">מסנני &ldquo;ההסתרת האלמנטים&rdquo; התואמים ל Adblock Plus<\/a>. מסננים אלו הם קוסמטיים, הם נועדו להסתיר אלמנטים בדף אשר נחשבים למטרד חזותי, ואשר לא יכולים להיחסם על ידי מנוע חסימת בקשות רשת.<\/p><p>הפעלת פיצ'ר זה מעלה את צריכת הזיכרון של <i>Adblock Maximum<\/i><\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>מסננים קוסמטיים כלליים הם המסננים הקוסמטיים אשר מיועדים להיות מוחלים על כל דפי האינטרנט.<p>למרות ש uBlock₀ מטפל בהם ביעילות, מסננים קוסמטיים כללים יכולים להכביד על הזיכרון וה CPU בדפי אינטרנט מסוימים, בעיקר לדפי אינטרנט גדולים ובעלי חיים ארוכים.<p>אפשור הגדרה זו תמנע את השימוש הרב בזיכרון וב CPU אשר נוספים לדפי אינטרנט כתוצאה משימוש במסננים קוסמטיים כלליים, וגם תוריד את צריכת הזיכרון של uBlock₀ עצמו.<p>מומלץ לאפשר הגדרה זו במכשירים חלשים יותר.",
+    "message": "<p>מסננים קוסמטיים כלליים הם המסננים הקוסמטיים אשר מיועדים להיות מוחלים על כל דפי האינטרנט.<p>למרות ש Adblock Maximum מטפל בהם ביעילות, מסננים קוסמטיים כללים יכולים להכביד על הזיכרון וה CPU בדפי אינטרנט מסוימים, בעיקר לדפי אינטרנט גדולים ובעלי חיים ארוכים.<p>אפשור הגדרה זו תמנע את השימוש הרב בזיכרון וב CPU אשר נוספים לדפי אינטרנט כתוצאה משימוש במסננים קוסמטיים כלליים, וגם תוריד את צריכת הזיכרון של Adblock Maximum עצמו.<p>מומלץ לאפשר הגדרה זו במכשירים חלשים יותר.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "מובנה",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "פרסומות",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "my-ublock-static-filters_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "my-adm-static-filters_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "החל שינויים",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "my-ublock-dynamic-rules_{{datetime}}.txt",
+    "message": "my-adm-dynamic-rules_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "הרשומות ברשימה הלבנה מציינות באילו דפי אינטרנט uBlock Origin לא יהיה פעיל. רשומה אחת בכל שורה. רשומות לא חוקיות תתעלמנה בשקט ויסומנו כהערות.",
+    "message": "הרשומות ברשימה הלבנה מציינות באילו דפי אינטרנט Adblock Maximum לא יהיה פעיל. רשומה אחת בכל שורה. רשומות לא חוקיות תתעלמנה בשקט ויסומנו כהערות.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "my-ublock-whitelist_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "my-adm-whitelist_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "החל שינויים",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "my-ublock-backup_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "my-adm-backup_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "שחזר מקובץ...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "כל ההגדרות שלך יוחלפו בנתונים שגובו ב {{time}}, ו uBlock₀ יופעל מחדש.\n\nהאם להחליף את כל ההגדרות הקיימות בנתונים המגובים?",
+    "message": "כל ההגדרות שלך יוחלפו בנתונים שגובו ב {{time}}, ו Adblock Maximum יופעל מחדש.\n\nהאם להחליף את כל ההגדרות הקיימות בנתונים המגובים?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "כל ההגדרות שלך יימחקו, ו uBlock₀ יופעל מחדש.\n\nלאפס את uBlock₀ להגדרות ברירת מחדל?",
+    "message": "כל ההגדרות שלך יימחקו, ו Adblock Maximum יופעל מחדש.\n\nלאפס את Adblock Maximum להגדרות ברירת מחדל?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: הוסף את הכתובת הבאה לרשימת הפילטרים המותאמים אישית שלך?\n\nכותרת: \"{{title}}\"\nכתובת URL: {{url}}",
+    "message": "Adblock Maximum: הוסף את הכתובת הבאה לרשימת הפילטרים המותאמים אישית שלך?\n\nכותרת: \"{{title}}\"\nכתובת URL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "מכובה",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin מנע מהעמוד הבא להיטען:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum מנע מהעמוד הבא להיטען:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "בגלל המסנן הבא",

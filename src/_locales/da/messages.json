@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Kontrolpanel",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Kontrolpanel",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Indstillinger",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Loggen",
+    "message": "Adblock Maximum — Loggen",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klik: Deaktiver\/aktiver uBlock₀ på dette websted.\n\nCtrl+klik: Deaktiver uBlock₀ kun på denne side.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Klik: Deaktiver\/aktiver Adblock Maximum på dette websted.\n\nCtrl+klik: Deaktiver Adblock Maximum kun på denne side.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Klik for at deaktivere uBlock₀ på dette websted.\n\nCtrl+klik for at deaktivere uBlock₀ kun på denne side.",
+    "message": "Klik for at deaktivere Adblock Maximum på dette websted.\n\nCtrl+klik for at deaktivere Adblock Maximum kun på denne side.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Klik for at aktivere uBlock₀ på dette websted.",
+    "message": "Klik for at aktivere Adblock Maximum på dette websted.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Denne indstilling gør det muligt at analysere og anvende <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus kompatible &ldquo;element skjuldende&rdquo; filtre<\/a>. Disse filtre er i det væsentlige kosmetiske og har til formål at skjule irriterende visuelle elementer websider, som det ikke er muligt at blokere på andre måder. <\/p><p>Denne indstilling øger uBlock₀'s hukommelsesforbrug.<\/p>",
+    "message": "<p>Denne indstilling gør det muligt at analysere og anvende <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus kompatible &ldquo;element skjuldende&rdquo; filtre<\/a>. Disse filtre er i det væsentlige kosmetiske og har til formål at skjule irriterende visuelle elementer websider, som det ikke er muligt at blokere på andre måder. <\/p><p>Denne indstilling øger Adblock Maximum's hukommelsesforbrug.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Fælles kosmetiske filtre er de kosmetiske filtre der er ment til anvendelse på alle websider. \n<p>Selvom uBlock₀ behandler dem effektivt, kan de fælles kosmetiske filtre medføre forøget brug af hukommelse og CPU på nogle websider, specielt de store og længe-åbnede websider.\n<p>Aktiveres denne funktion vil uBlock₀ ikke længere benytte de fælles kosmetiske filtre, hvilket medfører lavere hukommelses- og CPU-forbrug på hver side, samt mindre overordnet hukommelsesforbrug.\n<p>Det anbefales at aktivere denne funktion på mindre kraftfulde enheder.",
+    "message": "<p>Fælles kosmetiske filtre er de kosmetiske filtre der er ment til anvendelse på alle websider. \n<p>Selvom Adblock Maximum behandler dem effektivt, kan de fælles kosmetiske filtre medføre forøget brug af hukommelse og CPU på nogle websider, specielt de store og længe-åbnede websider.\n<p>Aktiveres denne funktion vil Adblock Maximum ikke længere benytte de fælles kosmetiske filtre, hvilket medfører lavere hukommelses- og CPU-forbrug på hver side, samt mindre overordnet hukommelsesforbrug.\n<p>Det anbefales at aktivere denne funktion på mindre kraftfulde enheder.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Indbygget",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Reklamer",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "mine-ublock-statiske-filtre_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "mine-adm-statiske-filtre_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Anvend ændringer",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "mine-ublock-dynamiske-regler_{{datetime}}.txt",
+    "message": "mine-adm-dynamiske-regler_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Brugerdefineret liste over værtsnavne hvor uBlock Origin vil være deaktiveret. Kun et værtsnavn pr. linje. Ugyldige værtsnavne ignoreres og kommenteres ud.",
+    "message": "Brugerdefineret liste over værtsnavne hvor Adblock Maximum vil være deaktiveret. Kun et værtsnavn pr. linje. Ugyldige værtsnavne ignoreres og kommenteres ud.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "min-ublock-whitelist_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "min-adm-whitelist_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Anvend ændringer",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "min-ublock-sikkerhedskopi_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "min-adm-sikkerhedskopi_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Gendan fra fil...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Alle dine indstillinger vil blive overskrevet med sikkerhedskopierede data fra {{time}}, hvorefter uBlock₀ vil genstarte.\n\nOverskriv de nuværende indstillinger med data fra sikkerhedskopien?",
+    "message": "Alle dine indstillinger vil blive overskrevet med sikkerhedskopierede data fra {{time}}, hvorefter Adblock Maximum vil genstarte.\n\nOverskriv de nuværende indstillinger med data fra sikkerhedskopien?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Alle dine indstillinger bliver fjernet, og uBlock₀ genstarter.\n\nNulstil uBlock₀ til standardindstillingerne?",
+    "message": "Alle dine indstillinger bliver fjernet, og Adblock Maximum genstarter.\n\nNulstil Adblock Maximum til standardindstillingerne?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock: Tilføj den følgende URL til dine brugerdefinerede filterlister?\n\nTitel: \"{{title}}\"\nURL: {{url}}",
+    "message": "Adblock Maximum: Tilføj den følgende URL til dine brugerdefinerede filterlister?\n\nTitel: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "Slået fra",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origins har blokeret den følgende hjemmeside fra at hente:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximums har blokeret den følgende hjemmeside fra at hente:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "På grund af det følgende filter",

@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — لوحة التحكم",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — لوحة التحكم",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "الإعدادات",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "\"uBlock₀\" — سجل الإتصال بالشبكة",
+    "message": "\"Adblock Maximum\" — سجل الإتصال بالشبكة",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -49,14 +49,14 @@
   },
   "popupPowerSwitchInfo": {
     "message": "اضغط: لتعطيل\/تشغيل ميكروبلوك لهذا الموقع.\n\nCtrl+click لتعطيل ميكروبلوك لهذه الصفحة فقط.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "اضغط لتعطيل uBlock₀ لهذا الموقع.\n\nCtrl+click لتعطيل uBlock₀ لهذه الصفحة فقط.",
+    "message": "اضغط لتعطيل Adblock Maximum لهذا الموقع.\n\nCtrl+click لتعطيل Adblock Maximum لهذه الصفحة فقط.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "اضغط لتفعيل uBlock₀ لهذا الموقع.",
+    "message": "اضغط لتفعيل Adblock Maximum لهذا الموقع.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>هذا الخيار يمكّن من تحليل و تطبيق <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">فلاتر متطابقة مع فلاتر &rdquo;إخفاء العناصر&ldquo; لتطبيق آدبلوك بلس<\/a>. هذه الفلاتر جماليّة بالأساس، تهدف إلى إخفاء عناصر في صفحة الواب، و اللتي تعتبر إزعاجا بصريّا، قد لا يتمكّن محرّك فلاتر الرّوابط من كشفها و صدّها.<\/p><p>تفعيل هذا الخيار من شأنه زيادة أثر الذّاكرة uBlock₀<\/p>",
+    "message": "<p>هذا الخيار يمكّن من تحليل و تطبيق <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">فلاتر متطابقة مع فلاتر &rdquo;إخفاء العناصر&ldquo; لتطبيق آدبلوك بلس<\/a>. هذه الفلاتر جماليّة بالأساس، تهدف إلى إخفاء عناصر في صفحة الواب، و اللتي تعتبر إزعاجا بصريّا، قد لا يتمكّن محرّك فلاتر الرّوابط من كشفها و صدّها.<\/p><p>تفعيل هذا الخيار من شأنه زيادة أثر الذّاكرة Adblock Maximum<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>الفلاتر التجميلية العامة هي الفلاتر التجميلية التي تنطبق على كل مواقع الإنترنت.<p>رغم أن uBlock₀ يتعامل معها بكفاءة، لكن يبقى من المرجح أن تستهلك المزيد من الموارد من الذاكرة و قوة المعالج على بعض الصفحات، خاصّةً الصفحات الكبيرة أو الممتدة<p>إهمال هذا النوع من الفلترة يلغي إستهلاك الذاكرة و قوة المعالج التي تستخدم في صفحات الإنترنت والناتجة عن التعامل مع اللفلاتر التجميلية، بالإضافة إلى تقليل إستهلاك الذاكرة من طرف uBlock₀ بشكلٍ عام.<p>من الأفضل أن تُفَعَّل هذه الخاصية على الأجهزة الأقل كفاءة.",
+    "message": "<p>الفلاتر التجميلية العامة هي الفلاتر التجميلية التي تنطبق على كل مواقع الإنترنت.<p>رغم أن Adblock Maximum يتعامل معها بكفاءة، لكن يبقى من المرجح أن تستهلك المزيد من الموارد من الذاكرة و قوة المعالج على بعض الصفحات، خاصّةً الصفحات الكبيرة أو الممتدة<p>إهمال هذا النوع من الفلترة يلغي إستهلاك الذاكرة و قوة المعالج التي تستخدم في صفحات الإنترنت والناتجة عن التعامل مع اللفلاتر التجميلية، بالإضافة إلى تقليل إستهلاك الذاكرة من طرف Adblock Maximum بشكلٍ عام.<p>من الأفضل أن تُفَعَّل هذه الخاصية على الأجهزة الأقل كفاءة.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "مدمج",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "اعلانات",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "my-ublock-static-filters_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "my-adm-static-filters_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "حفظ التغيرات",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "my-ublock-dynamic-rules_{{datetime}}.txt",
+    "message": "my-adm-dynamic-rules_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "القائمة البيضاء تشيرللصفحات التي سوف يتم تعطيل uBlock₀ فيها. مدخل واحد لكل سطر. الفلاتر الغير صحيحه سوف يتم تجاهلها وإستبعادها.",
+    "message": "القائمة البيضاء تشيرللصفحات التي سوف يتم تعطيل Adblock Maximum فيها. مدخل واحد لكل سطر. الفلاتر الغير صحيحه سوف يتم تجاهلها وإستبعادها.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "my-ublock-whitelist_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "my-adm-whitelist_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "حفظ التغيرات",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "إحتياط-ublock-الخاص-بي_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "إحتياط-adm-الخاص-بي_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "إسترجع من الملف...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "كل إعداداتك سوف يتم كتابتها بإستعمال البيانات التي تم نسخها إحتياطيا على {{time}}، و سيعيد uBlock₀ التشغيل.\n\nأعد كتابة كل الإعدادات الموجود بإستخدام البيانات التي تم نسخها إحتياطيا؟",
+    "message": "كل إعداداتك سوف يتم كتابتها بإستعمال البيانات التي تم نسخها إحتياطيا على {{time}}، و سيعيد Adblock Maximum التشغيل.\n\nأعد كتابة كل الإعدادات الموجود بإستخدام البيانات التي تم نسخها إحتياطيا؟",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "كل إعداداتك سيتم إلغائها، و سيتم إعادة تشغيل \"uBlock₀\".\n\n\nإعادة ضبط \"uBlock₀\" على الإعدادات الأصلية؟",
+    "message": "كل إعداداتك سيتم إلغائها، و سيتم إعادة تشغيل \"Adblock Maximum\".\n\n\nإعادة ضبط \"Adblock Maximum\" على الإعدادات الأصلية؟",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀ : إضافة الرابط التالي للقوائم الفلترات الخاصة لك؟\n\nعنوان : \"{{title}}\"\nرابط : {{url}}",
+    "message": "Adblock Maximum : إضافة الرابط التالي للقوائم الفلترات الخاصة لك؟\n\nعنوان : \"{{title}}\"\nرابط : {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "تعطيل",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock₀ منع الصفحة التالية من التحميل:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum منع الصفحة التالية من التحميل:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "بسبب الفلتر التالي",

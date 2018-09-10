@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Panel de control",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Panel de control",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Configuración",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Rexistro de peticións de rede",
+    "message": "Adblock Maximum — Rexistro de peticións de rede",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Click: desactivar\/activar o uBlock₀ neste sitio.\n\nCtrl+click: desactivar o Block₀ só nesta páxina.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Click: desactivar\/activar o Adblock Maximum neste sitio.\n\nCtrl+click: desactivar o Block₀ só nesta páxina.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Click: desactivar\/activar o uBlock₀ neste sitio.\n\nCtrl+click: desactivar o Block₀ só nesta páxina.",
+    "message": "Click: desactivar\/activar o Adblock Maximum neste sitio.\n\nCtrl+click: desactivar o Block₀ só nesta páxina.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Click: activar o uBlock₀ neste sitio.",
+    "message": "Click: activar o Adblock Maximum neste sitio.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Esta opción permitirache a análise e a aplicación de <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">&ldquo;filtros de ocultación de elementos&rdquo; compatibles co Adblock Plus<\/a>. \nEstes filtros sonche sobre todo cosméticos, serven para agochar elementos visualmente molestos nunha determinada páxina, non sendo posible a súa eliminación cun motor de bloqueo baseado en peticións.<\/p><p>Activar esta opción incrementará o uso de memoria do <i>uBlock₀<\/i>.<\/p>",
+    "message": "<p>Esta opción permitirache a análise e a aplicación de <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">&ldquo;filtros de ocultación de elementos&rdquo; compatibles co Adblock Plus<\/a>. \nEstes filtros sonche sobre todo cosméticos, serven para agochar elementos visualmente molestos nunha determinada páxina, non sendo posible a súa eliminación cun motor de bloqueo baseado en peticións.<\/p><p>Activar esta opción incrementará o uso de memoria do <i>Adblock Maximum<\/i>.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Os filtros cosméticos xenéricos estanche pensados para seren aplicados en todas as páxinas.<p>Aínda que o uBlock₀ os xestiona dun xeito eficiente, algúns deles precisan de altas cantidades de memoria e sobreemprego da CPU, especialmente nas páxinas grandes e nas máis duradeiras.<p>Activar esta opción suprimirá os requerimentos de memoria e CPU por causa destes filtros cosméticos xenéricos, así como reducirá a cantidade de memoria ocupada polo uBlock₀ mesmo.<p>Recomendámosche activar esta opción sobre todo nos dispositivos menos potentes.",
+    "message": "<p>Os filtros cosméticos xenéricos estanche pensados para seren aplicados en todas as páxinas.<p>Aínda que o Adblock Maximum os xestiona dun xeito eficiente, algúns deles precisan de altas cantidades de memoria e sobreemprego da CPU, especialmente nas páxinas grandes e nas máis duradeiras.<p>Activar esta opción suprimirá os requerimentos de memoria e CPU por causa destes filtros cosméticos xenéricos, así como reducirá a cantidade de memoria ocupada polo Adblock Maximum mesmo.<p>Recomendámosche activar esta opción sobre todo nos dispositivos menos potentes.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Local",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Anuncios",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "o-meu-ublock-filtros-estaticos_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "o-meu-adm-filtros-estaticos_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Aplicar cambios",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "o-meu-ublock-regras-dinamicas_{{datetime}}.txt",
+    "message": "o-meu-adm-regras-dinamicas_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "A lista branca é a túa lista de nomes de servidor nos que o uBlock₀ estará desactivado. Ten unha entrada por cada liña, e os nomes de servidor non válidos serán ignorados.",
+    "message": "A lista branca é a túa lista de nomes de servidor nos que o Adblock Maximum estará desactivado. Ten unha entrada por cada liña, e os nomes de servidor non válidos serán ignorados.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "o-meu-ublock-lista-branca_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "o-meu-adm-lista-branca_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Aplicar os cambios",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "ublock-copia-seguridade_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "adm-copia-seguridade_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Recuperar dende arquivo...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Todas as túas preferencias serán rescritas, usando os datos rexistrados no {{time}}, e o uBlock₀ reiniciará. Queres sobrescribir toda a configuración existente empregando os datos da copia de seguridade?",
+    "message": "Todas as túas preferencias serán rescritas, usando os datos rexistrados no {{time}}, e o Adblock Maximum reiniciará. Queres sobrescribir toda a configuración existente empregando os datos da copia de seguridade?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "Eliminaranse todas as túas preferencias, e reiniciará o uBlock₀. Queres resetear o uBlock₀ á configuración por defecto?",
+    "message": "Eliminaranse todas as túas preferencias, e reiniciará o Adblock Maximum. Queres resetear o Adblock Maximum á configuración por defecto?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Engadir o seguinte enderezo á túa lista de filtros personalizados?\n\nTitle: \"{{title}}\"\nURL: {{url}}",
+    "message": "Adblock Maximum: Engadir o seguinte enderezo á túa lista de filtros personalizados?\n\nTitle: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "desactivado",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "O uBlock₀ impediu cargar a seguinte páxina:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "O Adblock Maximum impediu cargar a seguinte páxina:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Por mor deste filtro:",

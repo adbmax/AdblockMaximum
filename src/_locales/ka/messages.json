@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — სამართავი დაფა",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — სამართავი დაფა",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "პარამეტრები",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — აღმრიცხავი",
+    "message": "Adblock Maximum — აღმრიცხავი",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "დაწკაპუნება: ამ საიტისთვის uBlock-ის ჩართვა\/გამორთვა.\n\nCtrl+დაწკაპუნება: uBlock-ის მხოლოდ ამ გვერდზე გამორთვა.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "დაწკაპუნება: ამ საიტისთვის AdblockMaximum-ის ჩართვა\/გამორთვა.\n\nCtrl+დაწკაპუნება: AdblockMaximum-ის მხოლოდ ამ გვერდზე გამორთვა.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "დააწკაპეთ uBlock₀-ის გამოსართავად ამ საიტზე.\n\nCtrl+დაწკაპებით uBlock₀ მხოლოდ ამ გვერდზე გამოირთვება.",
+    "message": "დააწკაპეთ Adblock Maximum-ის გამოსართავად ამ საიტზე.\n\nCtrl+დაწკაპებით Adblock Maximum მხოლოდ ამ გვერდზე გამოირთვება.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "დააწკაპეთ uBlock₀-ის ჩასართავად ამ საიტზე.",
+    "message": "დააწკაპეთ Adblock Maximum-ის ჩასართავად ამ საიტზე.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>ეს პარამეტრი <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-სთან თავსებადი &ldquo;ელემენტის დასამალი&rdquo; ფილტრების<\/a> დამუშავებისა და გამოყენების შესაძლებლობას იძლევა. ეს ფილტრები, ძირითადად, იმ ხილული ელემენტების დასამალად გამოიყენება ვებგვერდზე, რომელსაც ქსელის მოთხოვნაზე დაფუძნებული ფილტრაციის საშუალებები ვერ ზღუდავს.<\/p><p>ამ შესაძლებლობის ჩართვის შედეგად გაიზრდება uBlock₀-ის მიერ მეხსიერების მოხმარება.<\/p>",
+    "message": "<p>ეს პარამეტრი <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-სთან თავსებადი &ldquo;ელემენტის დასამალი&rdquo; ფილტრების<\/a> დამუშავებისა და გამოყენების შესაძლებლობას იძლევა. ეს ფილტრები, ძირითადად, იმ ხილული ელემენტების დასამალად გამოიყენება ვებგვერდზე, რომელსაც ქსელის მოთხოვნაზე დაფუძნებული ფილტრაციის საშუალებები ვერ ზღუდავს.<\/p><p>ამ შესაძლებლობის ჩართვის შედეგად გაიზრდება Adblock Maximum-ის მიერ მეხსიერების მოხმარება.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>ხილული ელემენტების საერთო ფილტრებია ის, რომელიც ყველა ვებსაიტს ესადაგება.<p>მიუხედავად uBlock₀-ის მიერ სიმსუბუქის შენარჩუნების შესაძლებლობისა, ხილული ელემენტების საერთო ფილტრებმა, შესაძლოა მაინც დატვირთოს მეხსიერება და პროცესორი ზოგიერთ ვებსაიტზე, განსაკუთრებით დიდსა და მოძველებულზე.<p>ამ პარამეტრის ჩართვით კი თავიდან აიცილებთ ხილული ელემენტების საერთო ფილტრების შედეგად მეხსიერებისა და პროცესორის და ასევე უშუალოდ uBlock₀-ის დატვირთვას.<p>ამ პარამეტრის ჩართვა სასურველია სუსტ მოწყობილობებზე.",
+    "message": "<p>ხილული ელემენტების საერთო ფილტრებია ის, რომელიც ყველა ვებსაიტს ესადაგება.<p>მიუხედავად Adblock Maximum-ის მიერ სიმსუბუქის შენარჩუნების შესაძლებლობისა, ხილული ელემენტების საერთო ფილტრებმა, შესაძლოა მაინც დატვირთოს მეხსიერება და პროცესორი ზოგიერთ ვებსაიტზე, განსაკუთრებით დიდსა და მოძველებულზე.<p>ამ პარამეტრის ჩართვით კი თავიდან აიცილებთ ხილული ელემენტების საერთო ფილტრების შედეგად მეხსიერებისა და პროცესორის და ასევე უშუალოდ Adblock Maximum-ის დატვირთვას.<p>ამ პარამეტრის ჩართვა სასურველია სუსტ მოწყობილობებზე.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "ჩაშენებული",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "რეკლამები",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "ჩემი-ublock-მუდმივი-ფილტრები_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "ჩემი-adm-მუდმივი-ფილტრები_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "ცვლილებების ასახვა",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "ჩემი-ublock-ცვალებადი-წესები_{{datetime}}.txt",
+    "message": "ჩემი-adm-ცვალებადი-წესები_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "მითითებული გამონაკლისები განსაზღვრავს, თუ რომელ ვებგვერდზე უნდა გამოირთოს uBlock Origin. თითოეული ჩანაწერი ცალკეულ ხაზზე უნდა იყოს. არასწორი მითითებები უგულებელყოფილი იქნება გაფრთხილების გარეშე და აღინიშნება კომენტარად.",
+    "message": "მითითებული გამონაკლისები განსაზღვრავს, თუ რომელ ვებგვერდზე უნდა გამოირთოს Adblock Maximum. თითოეული ჩანაწერი ცალკეულ ხაზზე უნდა იყოს. არასწორი მითითებები უგულებელყოფილი იქნება გაფრთხილების გარეშე და აღინიშნება კომენტარად.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "ჩემი-ublock-გამონაკლისები_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "ჩემი-adm-გამონაკლისები_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "ცვლილებების ასახვა",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "ჩემი-ublock-მარქაფი_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "ჩემი-adm-მარქაფი_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "აღდგენა ფაილიდან...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "თქვენს ყველა პარამეტრს გადაეწერება {{time}} დროინდელი დამარქაფებული მონაცემები და uBlock₀ გაეშვება ხელახლა.\n\nნამდვილად გსურთ არსებული პარამეტრების დამარქაფებული მონაცემებით ჩანაცვლება?",
+    "message": "თქვენს ყველა პარამეტრს გადაეწერება {{time}} დროინდელი დამარქაფებული მონაცემები და Adblock Maximum გაეშვება ხელახლა.\n\nნამდვილად გსურთ არსებული პარამეტრების დამარქაფებული მონაცემებით ჩანაცვლება?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -644,7 +644,7 @@
     "description": "Message to display when an error occurred during restore"
   },
   "aboutResetDataConfirm": {
-    "message": "თქვენ მიერ მითითებული ყველა პარამეტრი წაიშლება და uBlock₀ გაეშვება ხელახლა.\n\nნამდვილად გსურთ uBlock₀-ის ნაგულისხმევ პარამეტრებზე დაბრუნება?",
+    "message": "თქვენ მიერ მითითებული ყველა პარამეტრი წაიშლება და Adblock Maximum გაეშვება ხელახლა.\n\nნამდვილად გსურთ Adblock Maximum-ის ნაგულისხმევ პარამეტრებზე დაბრუნება?",
     "description": "Message asking user to confirm reset"
   },
   "errorCantConnectTo": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: გსურთ შემდეგი URL ბმულის საკუთარ ფილტრის წესებში ჩამატება?\n\nდასახელება: „{{title}}“\nURL: {{url}}",
+    "message": "Adblock Maximum: გსურთ შემდეგი URL ბმულის საკუთარ ფილტრის წესებში ჩამატება?\n\nდასახელება: „{{title}}“\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "გამორთული",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin-მა შეზღუდა მოცემული გვერდის ჩატვირთვა:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum-მა შეზღუდა მოცემული გვერდის ჩატვირთვა:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "მოცემული ფილტრიდან გამომდინარე",

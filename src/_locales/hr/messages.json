@@ -1,6 +1,6 @@
 {
   "extName": {
-    "message": "uBlock Origin",
+    "message": "Adblock Maximum",
     "description": "extension name."
   },
   "extShortDesc": {
@@ -8,8 +8,8 @@
     "description": "this will be in the chrome web store: must be 132 characters or less"
   },
   "dashboardName": {
-    "message": "uBlock₀ — Nadzorna ploča",
-    "description": "English: uBlock₀ — Dashboard"
+    "message": "Adblock Maximum — Nadzorna ploča",
+    "description": "English: Adblock Maximum — Dashboard"
   },
   "settingsPageName": {
     "message": "Postavke",
@@ -36,7 +36,7 @@
     "description": "appears as tab name in dashboard"
   },
   "statsPageName": {
-    "message": "uBlock₀ — Zapisnik mrežnih zahtjeva",
+    "message": "Adblock Maximum — Zapisnik mrežnih zahtjeva",
     "description": "Title for the logger window"
   },
   "aboutPageName": {
@@ -48,15 +48,15 @@
     "description": "Title for the advanced settings page"
   },
   "popupPowerSwitchInfo": {
-    "message": "Klik: trajno onemogućiti\/omogućiti uBlock₀  za ovaj sajt.\n\nCtrl+klik: onemogućiti µBlock₀  samo za ovu stranicu.",
-    "description": "English: Click: disable\/enable uBlock₀ for this site.\n\nCtrl+click: disable uBlock₀ only on this page."
+    "message": "Klik: trajno onemogućiti\/omogućiti Adblock Maximum  za ovaj sajt.\n\nCtrl+klik: onemogućiti µBlock₀  samo za ovu stranicu.",
+    "description": "English: Click: disable\/enable Adblock Maximum for this site.\n\nCtrl+click: disable Adblock Maximum only on this page."
   },
   "popupPowerSwitchInfo1": {
-    "message": "Kliknite za onemogućiti uBlock₀ za ovaj sajt.\n\nCtrl+klik za onemogućiti uBlock₀ samo za ovu stranicu.",
+    "message": "Kliknite za onemogućiti Adblock Maximum za ovaj sajt.\n\nCtrl+klik za onemogućiti Adblock Maximum samo za ovu stranicu.",
     "description": "Message to be read by screen readers"
   },
   "popupPowerSwitchInfo2": {
-    "message": "Kliknite za omogućiti uBlock₀ za ovaj sajt.",
+    "message": "Kliknite za omogućiti Adblock Maximum za ovaj sajt.",
     "description": "Message to be read by screen readers"
   },
   "popupBlockedRequestPrompt": {
@@ -336,7 +336,7 @@
     "description": "English: Parse and enforce Adblock+ element hiding filters."
   },
   "3pParseAllABPHideFiltersInfo": {
-    "message": "<p>Ova opcija omogućava raščlambu i provođenje <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kompatibilnih filtera sa &ldquo;elementima za skrivanje&rdquo; <\/a>. Ovi filteri su uglavnom estetski, oni služe za skrivanje elemenata na web-stranici koja se smatra da je vizualna smetnja, a koja ne može biti blokirana od strane mrežnih zahtjeva temeljenih na filtriranju.<\/p><p>Omogućavanje ove značajke povećava <i>uBlock₀ <\/i>memorijski otisak.<\/p>",
+    "message": "<p>Ova opcija omogućava raščlambu i provođenje <a href=\"https:\/\/adblockplus.org\/en\/faq_internal#elemhide\">Adblock Plus-kompatibilnih filtera sa &ldquo;elementima za skrivanje&rdquo; <\/a>. Ovi filteri su uglavnom estetski, oni služe za skrivanje elemenata na web-stranici koja se smatra da je vizualna smetnja, a koja ne može biti blokirana od strane mrežnih zahtjeva temeljenih na filtriranju.<\/p><p>Omogućavanje ove značajke povećava <i>Adblock Maximum <\/i>memorijski otisak.<\/p>",
     "description": "Describes the purpose of the 'Parse and enforce cosmetic filters' feature."
   },
   "3pIgnoreGenericCosmeticFilters": {
@@ -344,7 +344,7 @@
     "description": "This will cause uBO to ignore all generic cosmetic filters."
   },
   "3pIgnoreGenericCosmeticFiltersInfo": {
-    "message": "<p>Generički estetski filteri su takvi filteri koji su namijenjeni svim web stranicama.<p>Iako efikasno korišteni sa uBlock₀ blokerom, generički estetski filteri svejedno mogu doprinijeti dodatnoj mjerljivoj memorijskoj i procesorskoj upotrebi na nekim stranicama, posebno za velike i dugovječne stranice.<p>Omogućavanjem ove postavke eliminirati će se memorijska i procesorska dodatna upotreba na web stranicama kao rezultat korištenja generičkih estetskih filtera i tako smanjiti ukupna memorijska potrošnja proširenja uBlock₀.<p>Preporučeno je omogućiti ovu postavku na slabijim uređajima.",
+    "message": "<p>Generički estetski filteri su takvi filteri koji su namijenjeni svim web stranicama.<p>Iako efikasno korišteni sa Adblock Maximum blokerom, generički estetski filteri svejedno mogu doprinijeti dodatnoj mjerljivoj memorijskoj i procesorskoj upotrebi na nekim stranicama, posebno za velike i dugovječne stranice.<p>Omogućavanjem ove postavke eliminirati će se memorijska i procesorska dodatna upotreba na web stranicama kao rezultat korištenja generičkih estetskih filtera i tako smanjiti ukupna memorijska potrošnja proširenja Adblock Maximum.<p>Preporučeno je omogućiti ovu postavku na slabijim uređajima.",
     "description": "Describes the purpose of the 'Ignore generic cosmetic filters' feature."
   },
   "3pListsOfBlockedHostsHeader": {
@@ -357,7 +357,7 @@
   },
   "3pGroupDefault": {
     "message": "Ugrađeno",
-    "description": "Header for the uBlock filters section in 'Filter lists pane'"
+    "description": "Header for the Adblock Maximum filters section in 'Filter lists pane'"
   },
   "3pGroupAds": {
     "message": "Reklame",
@@ -424,8 +424,8 @@
     "description": "English: Export"
   },
   "1pExportFilename": {
-    "message": "moji-ublock-staticni-filteri_{{datetime}}.txt",
-    "description": "English: my-ublock-static-filters_{{datetime}}.txt"
+    "message": "moji-adm-staticni-filteri_{{datetime}}.txt",
+    "description": "English: my-adm-static-filters_{{datetime}}.txt"
   },
   "1pApplyChanges": {
     "message": "Primijeni promjene",
@@ -468,7 +468,7 @@
     "description": ""
   },
   "rulesDefaultFileName": {
-    "message": "moja-ublock-dinamicna-pravila_{{datetime}}.txt",
+    "message": "moja-adm-dinamicna-pravila_{{datetime}}.txt",
     "description": "default file name to use"
   },
   "rulesHint": {
@@ -480,7 +480,7 @@
     "description": "English: dynamic rule syntax and full documentation."
   },
   "whitelistPrompt": {
-    "message": "Popis host naziva za koje će uBlock Origin biti onemogućen. Jedan zapis po retku. Nevaljani host nazivi biti će tiho ignorirani.",
+    "message": "Popis host naziva za koje će Adblock Maximum biti onemogućen. Jedan zapis po retku. Nevaljani host nazivi biti će tiho ignorirani.",
     "description": "English: An overview of the content of the dashboard's Whitelist pane."
   },
   "whitelistImport": {
@@ -492,8 +492,8 @@
     "description": "English: Export"
   },
   "whitelistExportFilename": {
-    "message": "moja-ublock-lista_dopustenog_{{datetime}}.txt",
-    "description": "English: my-ublock-whitelist_{{datetime}}.txt"
+    "message": "moja-adm-lista_dopustenog_{{datetime}}.txt",
+    "description": "English: my-adm-whitelist_{{datetime}}.txt"
   },
   "whitelistApply": {
     "message": "Primijeni promjene",
@@ -624,8 +624,8 @@
     "description": "Text for button to create a backup of all settings"
   },
   "aboutBackupFilename": {
-    "message": "moja-ublock-sig_kopija_{{datetime}}.txt",
-    "description": "English: my-ublock-backup_{{datetime}}.txt"
+    "message": "moja-adm-sig_kopija_{{datetime}}.txt",
+    "description": "English: my-adm-backup_{{datetime}}.txt"
   },
   "aboutRestoreDataButton": {
     "message": "Vraćanje iz datoteke...",
@@ -636,7 +636,7 @@
     "description": "English: Reset to default settings..."
   },
   "aboutRestoreDataConfirm": {
-    "message": "Sve vaše postavke prebrisat će se sa postavkama spremljenim {{time}}, i uBlock₀ će se ponovno pokrenuti. \n\nPrepisati sve postojeće postavke pomoću sigurnosne kopije postavki?",
+    "message": "Sve vaše postavke prebrisat će se sa postavkama spremljenim {{time}}, i Adblock Maximum će se ponovno pokrenuti. \n\nPrepisati sve postojeće postavke pomoću sigurnosne kopije postavki?",
     "description": "Message asking user to confirm restore"
   },
   "aboutRestoreDataError": {
@@ -652,7 +652,7 @@
     "description": "English: Network error: {{msg}}"
   },
   "subscriberConfirm": {
-    "message": "uBlock₀: Dodajte slijedeći izvor u vaš izbor filter lista?\n\nNaslov: \"{{title}}\"\nURL: {{url}}",
+    "message": "Adblock Maximum: Dodajte slijedeći izvor u vaš izbor filter lista?\n\nNaslov: \"{{title}}\"\nURL: {{url}}",
     "description": "English: The message seen by the user to confirm subscription to a ABP filter list"
   },
   "elapsedOneMinuteAgo": {
@@ -689,11 +689,11 @@
   },
   "fennecMenuItemBlockingOff": {
     "message": "isključen",
-    "description": "Firefox-specific: appears as 'uBlock₀ (off)'"
+    "description": "Firefox-specific: appears as 'Adblock Maximum (off)'"
   },
   "docblockedPrompt1": {
-    "message": "uBlock Origin je onemogućio učitavanje sljedeće stranice:",
-    "description": "English: uBlock₀ has prevented the following page from loading:"
+    "message": "Adblock Maximum je onemogućio učitavanje sljedeće stranice:",
+    "description": "English: Adblock Maximum has prevented the following page from loading:"
   },
   "docblockedPrompt2": {
     "message": "Zbog sljedećeg filtera",
