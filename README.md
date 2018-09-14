@@ -11,4 +11,4 @@ Adblock Maximum
 
 ##### License
 
-[GPLv3](https://github.com/gorhill/uBlock/blob/master/LICENSE.txt).
+[GPLv3](https://github.com/adbmax/AdblockMaximum/blob/master/LICENSE.txt).
